@@ -6,8 +6,8 @@ module.exports = {
     artifacts: "./app/src/artifacts",
   },
   networks: {
-    goerli: {
-      url: process.env.TESTNET_RPC_URL
+    sepolia: {
+      url: process.env.SEPOLIA_RPC_URL
     },
   },
 };
